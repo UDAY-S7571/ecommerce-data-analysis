@@ -62,5 +62,6 @@ Generate a .gitignore file suitable for this project.
 Generate a requirements.txt containing only required dependencies.
 
 ====================================================
-END OF ALL-IN-ONE PROMPT
+END OF  PROMPT
 ====================================================
+
