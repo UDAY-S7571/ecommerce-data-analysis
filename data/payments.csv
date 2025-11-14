@@ -1,0 +1,11 @@
+payment_id,order_id,amount,payment_method,status
+201,101,17000,UPI,Success
+202,102,2600,Credit Card,Success
+203,103,54000,NetBanking,Success
+204,104,3200,UPI,Success
+205,105,3000,UPI,Pending
+206,106,2200,Credit Card,Success
+207,107,1500,UPI,Success
+208,108,900,UPI,Failed
+209,109,500,UPI,Success
+210,110,52000,NetBanking,Success

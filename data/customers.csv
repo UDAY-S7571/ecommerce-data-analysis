@@ -1,0 +1,11 @@
+customer_id,name,email,city,created_at
+1,Aarav Sharma,aarav@example.com,Delhi,2023-01-10
+2,Ananya Patel,ananya@example.com,Mumbai,2023-02-15
+3,Rohit Kumar,rohit@example.com,Bangalore,2023-03-20
+4,Simran Kaur,simran@example.com,Chennai,2023-04-22
+5,Vikas Nair,vikas@example.com,Kochi,2023-05-30
+6,Neha Gupta,neha@example.com,Hyderabad,2023-06-18
+7,Pranav Reddy,pranav@example.com,Pune,2023-07-12
+8,Khushi Mehta,khushi@example.com,Ahmedabad,2023-08-21
+9,Manoj Yadav,manoj@example.com,Lucknow,2023-09-14
+10,Divya Singh,divya@example.com,Jaipur,2023-10-05
