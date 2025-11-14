@@ -1,0 +1,66 @@
+Generate a complete e-commerce data project with the following files:
+
+====================================================
+1) CSV FILES (PROMPT)
+====================================================
+Generate 5 synthetic e-commerce CSV files with these exact filenames and columns:
+
+1. customers.csv  
+   Columns: customer_id, name, email, city, created_at  
+
+2. products.csv  
+   Columns: product_id, product_name, category, price  
+
+3. orders.csv  
+   Columns: order_id, customer_id, order_date, total_amount  
+
+4. order_items.csv  
+   Columns: order_item_id, order_id, product_id, quantity, subtotal  
+
+5. payments.csv  
+   Columns: payment_id, order_id, amount, payment_method, status  
+
+Ensure relationships are consistent.  
+Return ONLY the CSV content for each file.
+
+====================================================
+2) PYTHON SCRIPT (PROMPT)
+====================================================
+Create a Python script named load_to_sqlite.py that:
+
+- Creates SQLite database: ecom.db  
+- Loads all 5 CSV files from a "data" folder  
+- Creates tables: customers, products, orders, order_items, payments  
+- Uses pandas + sqlite3  
+- Replaces tables if they exist  
+- Prints: "Data Loaded Successfully"
+
+Return ONLY the Python code.
+
+====================================================
+3) SQL JOIN FILE (PROMPT)
+====================================================
+Create a SQL file named join_report.sql that joins:
+
+customers  
+orders  
+order_items  
+products  
+
+Return ONLY the SQL that outputs:
+customer_name, order_id, order_date, product_name, quantity, subtotal, city
+Sorted by order_date DESC.
+
+====================================================
+4) .gitignore (PROMPT)
+====================================================
+Generate a .gitignore file suitable for this project.
+
+====================================================
+5) requirements.txt (PROMPT)
+====================================================
+Generate a requirements.txt containing only required dependencies.
+
+====================================================
+END OF ALL-IN-ONE PROMPT
+====================================================
